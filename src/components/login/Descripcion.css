@@ -1,0 +1,24 @@
+.login-container {
+    font-family: 'Oswald', sans-serif;
+    background: none;
+  }
+
+.text-secondary{
+    font-family: 'Oswald', sans-serif; 
+}
+
+.logo {
+    margin-top: 50px;
+    max-width: 500px; /* Ajusta el tamaño del logo si es necesario */
+    margin-bottom: 10px; /* Reduce el espacio debajo del logo */
+  }
+  
+  .logo-rewards {
+    max-width:  500px; /* Ajusta el tamaño del logo de recompensas si es necesario */
+    margin-top: 0px; /* Reduce el espacio entre el texto y la imagen */
+  }
+  
+.text-dark {
+    color: black !important;
+    font-family: 'Oswald', sans-serif;
+  }

@@ -8,14 +8,14 @@
 }
 
 .logo {
-    margin-top: 50px;
-    max-width: 500px; /* Ajusta el tamaño del logo si es necesario */
-    margin-bottom: 10px; /* Reduce el espacio debajo del logo */
-  }
+  max-width:  400px; 
+  margin-top: 200px; /* Ajusta según lo necesites */
+}
+
   
   .logo-rewards {
     max-width:  500px; /* Ajusta el tamaño del logo de recompensas si es necesario */
-    margin-top: 0px; /* Reduce el espacio entre el texto y la imagen */
+    margin-top: -100px; /* Reduce el espacio entre el texto y la imagen */
   }
   
 .text-dark {

@@ -1,0 +1,18 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .text-custom-blue {
+    color: #6ba4d3;
+    font-weight: bold;
+  }
+
+  .logo {
+    max-width:  400px; 
+    margin-top: 0px;
+  }
+  

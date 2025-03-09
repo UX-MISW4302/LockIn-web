@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./Login.css";
@@ -21,7 +22,13 @@ export default function Login() {
 
   return (
     <div className="d-flex vh-100 login">
-      <div className="position-absolute end-0 top-0 vh-100 w-40 d-flex flex-column justify-content-center align-items-center">
+      <motion.div
+        className="position-absolute end-0 top-0 vh-100 w-40 d-flex flex-column justify-content-center align-items-center"
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ type: "spring", stiffness: 100, damping: 10 }}
+      >
+        <img src="/lockin-logo.png" alt="Lock In Logo" className="logo mb-3" />
         <Form.Control
           type="text"
           placeholder="Usuario"
@@ -42,7 +49,7 @@ export default function Login() {
         </Button>
         <div className="d-flex justify-content-between w-75 mt-2">
           <a href="#">Recuperar cuenta</a>
-          <a href="#">Registrarse</a>
+          <a href="/Register">Registrarse</a>
         </div>
         <div className="d-flex w-75 gap-3 mt-3">
           <Button variant="outline-secondary" className="w-50">
@@ -52,7 +59,7 @@ export default function Login() {
             <FaGoogle /> Google
           </Button>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

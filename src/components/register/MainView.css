@@ -8,9 +8,12 @@
 }
 
 .main-container {
-  height: 100vh; /* Ocupa toda la altura de la pantalla */
-  overflow: hidden; /* Evita el desplazamiento */
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
 
 
 .logo {
@@ -37,7 +40,10 @@
     z-index: -1;
   }
   
-  .main-container {
-    position: relative; /* Para que el logo se posicione dentro de este contenedor */
-  }
-  
+.register,
+.descripcion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

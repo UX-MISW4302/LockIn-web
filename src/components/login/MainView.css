@@ -1,0 +1,43 @@
+.login-container {
+    font-family: 'Oswald', sans-serif;
+    background: none;
+  }
+
+.text-secondary{
+    font-family: 'Oswald', sans-serif; 
+}
+
+.main-container {
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  overflow: hidden; /* Evita el desplazamiento */
+}
+
+
+.logo {
+    margin-bottom: 50px; /* Ajusta el valor según necesites */
+  }
+
+  .separator {
+    width: 3px;
+    background-color: black;
+    height: 80%;
+    align-self: center;
+  }
+  
+  .w-40 {
+    width: 40%;
+  }
+
+  .logo-celular {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px; /* Ajusta el tamaño según sea necesario */
+    z-index: -1; /* Asegura que esté por encima de los otros elementos */
+  }
+  
+  .main-container {
+    position: relative; /* Para que el logo se posicione dentro de este contenedor */
+  }
+  

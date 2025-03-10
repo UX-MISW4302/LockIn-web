@@ -48,7 +48,7 @@ export default function Login() {
           Continuar
         </Button>
         <div className="d-flex justify-content-between w-75 mt-2">
-          <a href="#">Recuperar cuenta</a>
+          <a href="/restore">Recuperar cuenta</a>
           <a href="/Register">Registrarse</a>
         </div>
         <div className="d-flex w-75 gap-3 mt-3">
@@ -57,6 +57,11 @@ export default function Login() {
           </Button>
           <Button variant="outline-secondary" className="w-50">
             <FaGoogle /> Google
+          </Button>
+          <Button variant="outline-secondary" className="w-75">
+            <a href="/admin" style={{ textDecoration: "none", color: "inherit" }}>
+              Entrar como administrador
+            </a>
           </Button>
         </div>
       </motion.div>

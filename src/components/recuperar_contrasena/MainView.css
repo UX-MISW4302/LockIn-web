@@ -1,0 +1,36 @@
+.main-container {
+    width: 100%;
+  }
+  
+  .image-container {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .form-container {
+    width: 50%;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container {
+    font-family: 'Oswald', sans-serif;
+    background: none;
+  }
+
+.text-secondary{
+    font-family: 'Oswald', sans-serif; 
+}
+
+.text-dark {
+  color: black !important;
+  font-family: 'Oswald', sans-serif;
+}

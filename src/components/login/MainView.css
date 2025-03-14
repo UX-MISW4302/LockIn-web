@@ -25,7 +25,7 @@
   }
   
   .w-40 {
-    width: 40%;
+    flex-basis: 45%; /* Asegura que tenga suficiente espacio */
   }
 
   .logo-celular {
@@ -41,3 +41,6 @@
     position: relative; /* Para que el logo se posicione dentro de este contenedor */
   }
   
+  .descripcion {
+    border: 1px solid red; /* Para ver si el contenedor existe */
+  }

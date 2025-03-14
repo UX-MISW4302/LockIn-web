@@ -1,0 +1,125 @@
+.task-controls {
+  background-color: white;  /* White background */
+  border: 1px solid black;  /* Black border */
+  padding: 10px;
+  border-radius: 8px;
+  
+  display: flex;
+  flex-direction: column; /* Stack elements in separate rows */
+  gap: 10px;
+  max-width: 700px; /* Adjust this value as needed */
+  margin: auto;
+}
+
+
+.task-row {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 80px; /* Increase this value to create more horizontal spacing */
+}
+
+
+
+.task-search {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px; 
+  gap: 0px; /* Small gap between items */
+}
+
+.task-progress {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px; 
+  gap: 0px; /* Small gap between items */
+  overflow: hidden;
+}
+
+
+/* Style for dropdowns */
+.category-dropdown,
+.order-dropdown,
+.filter-dropdown {
+  padding: 5px;
+  font-size: 16px;
+
+  border-radius: 5px;
+}
+
+/* Special styling for Categorías button */
+.category-dropdown {
+  background-color: #FFA6A6; /* Light Red */
+  color: black;
+  padding: 6px 8px;
+}
+
+.order-dropdown,
+.filter-dropdown {
+  background-color: #A8E6CF; /* Greenish background */
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 18px; /* Make text slightly bigger */
+  cursor: pointer;
+  min-width: 150px; /* Ensure both have the same width */
+  text-align: center; /* Center the text */
+}
+
+
+
+
+/* Style for search bar and button */
+.search-input {
+  flex: 2; /* Increase the width of the search bar */
+  padding: 5px;
+  border: 0px solid #ccc;
+  border-radius: 5px; 
+  width: 285px; /* Increase width */
+}
+
+.search-button {
+  padding: 6px 10px;
+  background-color: #FF4D4D; /* Custom color for search button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button img {
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
+}
+
+/* Ensures the button looks clickable */
+.search-button:hover {
+  background-color: #ff6666;
+}
+
+.progress-label {
+  background-color: #BFD7EA;  /* Light Blue */
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.progress-range {
+  background-color: #6BA4D3; /* Darker Blue */
+  padding: 8px 12px;
+  border-radius: 8px; /* Rounded */
+  font-weight: bold;
+  color: black;
+}
+
+
+.progress-container {
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px; /* Rounded */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+}

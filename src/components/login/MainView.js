@@ -13,7 +13,7 @@ export default function MainView() {
 
         {/* Logo del celular en el centro */}
         <div>
-          <img src="/celular.png" alt="Lock In Logo" className="logo-celular" />
+          <img src="/Celular.png" alt="Lock In Logo" className="logo-celular" />
         </div>
 
         {/* Sección de login */}

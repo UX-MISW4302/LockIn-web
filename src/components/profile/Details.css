@@ -1,0 +1,74 @@
+.profile-fullscreen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    padding-left: 40px; /* Keep text slightly to the right */
+}
+  
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px; /* More spacing between image and "Nombre" */
+}
+  
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 50px; /* Increased space between image and text */
+}
+  
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* More space between username and level */
+    padding-left: 15px; /* Keep text slightly shifted to the right */
+}
+  
+.profile-username {
+    font-size: 48px;
+    font-weight: bold;
+}
+  
+.profile-level {
+    font-size: 28px;
+    color: gray;
+}
+  
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px; /* More vertical spacing between detail rows */
+    padding-left: 20px; /* Keep all texts slightly shifted to the right */
+}
+  
+.info-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adds a bit of space between label and value */
+}
+  
+.info-label {
+    font-weight: bold;
+    font-size: 26px;
+    color: gray;
+}
+  
+.info-value {
+    font-size: 30px;
+}
+  
+.edit-button {
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    padding: 18px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px; /* More spacing above the button */
+    align-self: center;
+}

@@ -1,0 +1,77 @@
+.calendar {
+    width: 300px;  /* Adjust size as needed */
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: white;
+  }
+  
+  .view-buttons {
+    display: flex;
+    gap: 0px;
+  }
+
+  .nav-button {
+    background-color: #6BA4D3; /* Selected color */
+    color: white; /* White text for < > */
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #4F94CD; /* Slightly darker blue */
+  }
+  
+  /* Today button style */
+  .today-button {
+    background-color: #BFD7EA; /* Default color */
+    color: black; /* Black text */
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px; /* Adjust for more/less roundness */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .today-button:hover {
+    background-color: #6BA4D3; /* Highlight color */
+    color: white;
+  }
+  
+  
+  .view-button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #BFD7EA;
+    color: black;
+  }
+  
+  .view-button.selected {
+    background-color: #6BA4D3;
+    color: white;
+  }
+  
+
+  
+  .toolbar-label {
+    font-weight: bold;
+  }
+  

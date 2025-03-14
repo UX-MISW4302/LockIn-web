@@ -4,11 +4,13 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./Login.css";
 import { FaApple, FaGoogle } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
   const [usuario, setUsuario] = useState("");
   const [contrasena, setContrasena] = useState("");
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = () => {
     if (!usuario || !contrasena) {
@@ -17,6 +19,7 @@ export default function Login() {
       setError("");
       console.log("Iniciar sesión con:", usuario, contrasena);
       // Aquí puedes manejar el login
+      navigate("/home")
     }
   };
 

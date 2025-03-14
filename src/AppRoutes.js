@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home/MainView";
-import Login from "./components/login/Login";
+import Login from "./components/login/MainView";
 import Register from "./components/register/MainView";
 import Restore from "./components/recuperar_contrasena/MainView";
 import NewPassword from "./components/cambio_contrasena/MainView";
-import Layout from "./components/navbar/Layout";
+import Layout from "./components/navbar_sinis/Layout";
 import Profile from "./components/profile/MainView";
 import Admin from "./components/admin/MainView"
 

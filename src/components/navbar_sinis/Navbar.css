@@ -20,8 +20,7 @@
 
   .navbar-logo {
     height: 110px;
-    display: block;
-    margin-bottom: -75px; /* Pulls the image down slightly */
+    margin-bottom: 5px; /* Pulls the image down slightly */
   }
   
   

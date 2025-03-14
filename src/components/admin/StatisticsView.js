@@ -41,7 +41,6 @@ export default function StatisticsView() {
                   />
                   <p className="username">{student.name}</p>
                   <span className="user-status">Última conexión: {student.lastSeen}</span>
-                  <a href="/profile" className="view-profile">Ver perfil</a>
                 </div>
               );
             })}

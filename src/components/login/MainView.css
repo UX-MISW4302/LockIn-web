@@ -1,46 +1,42 @@
 .login-container {
-    font-family: 'Oswald', sans-serif;
-    background: none;
-  }
+  font-family: 'Oswald', sans-serif;
+  background: none;
+}
 
 .text-secondary{
-    font-family: 'Oswald', sans-serif; 
+  font-family: 'Oswald', sans-serif; 
 }
 
 .main-container {
-  height: 100vh; /* Ocupa toda la altura de la pantalla */
-  overflow: hidden; /* Evita el desplazamiento */
+height: 100vh; /* Ocupa toda la altura de la pantalla */
+overflow: hidden; /* Evita el desplazamiento */
 }
 
 
 .logo {
-    margin-bottom: 50px;
-  }
+  margin-bottom: 50px;
+}
 
-  .separator {
-    width: 3px;
-    background-color: black;
-    height: 80%;
-    align-self: center;
-  }
-  
-  .w-40 {
-    flex-basis: 45%; /* Asegura que tenga suficiente espacio */
-  }
+.separator {
+  width: 3px;
+  background-color: black;
+  height: 80%;
+  align-self: center;
+}
 
-  .logo-celular {
-    position: absolute;
-    top: 63%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 800px;
-    z-index: -1;
-  }
-  
-  .main-container {
-    position: relative; /* Para que el logo se posicione dentro de este contenedor */
-  }
-  
-  .descripcion {
-    border: 1px solid red; /* Para ver si el contenedor existe */
-  }
+.w-40 {
+  width: 40%;
+}
+
+.logo-celular {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  z-index: -1;
+}
+
+.main-container {
+  position: relative; /* Para que el logo se posicione dentro de este contenedor */
+}
